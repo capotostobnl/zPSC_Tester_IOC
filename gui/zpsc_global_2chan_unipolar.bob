@@ -1913,12 +1913,12 @@ $(pv_value)</tooltip>
             <PSC>$(PSC)</PSC>
             <CHAN>Chan2</CHAN>
           </macros>
-          <target>window</target>
+          <target>tab</target>
         </action>
       </actions>
       <text>Channel 2</text>
       <x>26</x>
-      <y>86</y>
+      <y>63</y>
       <font>
         <font name="Header1" family="Sans" style="BOLD" size="9.900990099009901">
         </font>
@@ -1937,12 +1937,60 @@ $(pv_value)</tooltip>
             <PSC>$(PSC)</PSC>
             <CHAN>Chan1</CHAN>
           </macros>
-          <target>window</target>
+          <target>tab</target>
         </action>
       </actions>
       <text>Channel 1</text>
       <x>26</x>
       <y>27</y>
+      <font>
+        <font name="Header1" family="Sans" style="BOLD" size="9.900990099009901">
+        </font>
+      </font>
+      <tooltip>$(actions)</tooltip>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_33</name>
+      <actions>
+        <action type="open_display">
+          <description>Open Display</description>
+          <file>zpsc_chan_unipolar.opi</file>
+          <macros>
+            <PriSys>lab</PriSys>
+            <PSC>$(PSC)</PSC>
+            <CHAN>Chan3</CHAN>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text>Channel 3</text>
+      <x>26</x>
+      <y>106</y>
+      <font>
+        <font name="Header1" family="Sans" style="BOLD" size="9.900990099009901">
+        </font>
+      </font>
+      <tooltip>$(actions)</tooltip>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_34</name>
+      <actions>
+        <action type="open_display">
+          <description>Open Display</description>
+          <file>zpsc_chan_unipolar.opi</file>
+          <macros>
+            <PriSys>lab</PriSys>
+            <PSC>$(PSC)</PSC>
+            <CHAN>Chan4</CHAN>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text>Channel 4</text>
+      <x>26</x>
+      <y>147</y>
       <font>
         <font name="Header1" family="Sans" style="BOLD" size="9.900990099009901">
         </font>

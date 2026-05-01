@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
-  <name>$(CHAN):$(PriSys)</name>
+  <name>PSC#${PSC}</name>
   <width>1700</width>
   <height>900</height>
   <background_color>
@@ -35,6 +35,71 @@
       <width>85</width>
       <height>20</height>
     </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_29</name>
+      <actions>
+        <action type="open_display">
+          <description>Open Display</description>
+          <file>Psc1_qspi.opi</file>
+          <macros>
+            <PriSys>lab</PriSys>
+            <PSC>$(PSC)</PSC>
+            <CHAN>Chan2</CHAN>
+          </macros>
+          <target>window</target>
+        </action>
+      </actions>
+      <text>NonVolatile Settings</text>
+      <x>233</x>
+      <y>104</y>
+      <width>60</width>
+      <height>43</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="10.0">
+        </font>
+      </font>
+      <tooltip>$(actions)</tooltip>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>Text Update_149</name>
+      <pv_name>$(PriSys){$(PSC)}Chan2:FaultMask-SP</pv_name>
+      <x>233</x>
+      <y>76</y>
+      <width>53</width>
+      <font>
+        <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <format>4</format>
+      <precision>0</precision>
+      <show_units>false</show_units>
+      <horizontal_alignment>1</horizontal_alignment>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_98</name>
+      <text>Fault Mask SP</text>
+      <x>233</x>
+      <y>43</y>
+      <width>53</width>
+      <height>33</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="10.0">
+        </font>
+      </font>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
   </widget>
   <widget type="group" version="3.0.0">
     <name>Channel 1</name>
@@ -61,6 +126,71 @@
       <height>21</height>
       <off_label></off_label>
       <on_label></on_label>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_30</name>
+      <actions>
+        <action type="open_display">
+          <description>Open Display</description>
+          <file>Psc1_qspi.opi</file>
+          <macros>
+            <PriSys>lab</PriSys>
+            <PSC>$(PSC)</PSC>
+            <CHAN>Chan1</CHAN>
+          </macros>
+          <target>window</target>
+        </action>
+      </actions>
+      <text>NonVolatile Settings</text>
+      <x>233</x>
+      <y>123</y>
+      <width>60</width>
+      <height>43</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="10.0">
+        </font>
+      </font>
+      <tooltip>$(actions)</tooltip>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>Text Update_150</name>
+      <pv_name>$(PriSys){$(PSC)}Chan1:FaultMask-SP</pv_name>
+      <x>233</x>
+      <y>83</y>
+      <width>53</width>
+      <font>
+        <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <format>4</format>
+      <precision>0</precision>
+      <show_units>false</show_units>
+      <horizontal_alignment>1</horizontal_alignment>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_99</name>
+      <text>Fault Mask SP</text>
+      <x>233</x>
+      <y>50</y>
+      <width>53</width>
+      <height>33</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="10.0">
+        </font>
+      </font>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
     </widget>
   </widget>
   <widget type="group" version="3.0.0">
@@ -197,6 +327,71 @@ Chan 1</text>
         <color red="0" green="128" blue="255">
         </color>
       </border_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_28</name>
+      <actions>
+        <action type="open_display">
+          <description>Open Display</description>
+          <file>Psc1_qspi.opi</file>
+          <macros>
+            <PriSys>lab</PriSys>
+            <PSC>$(PSC)</PSC>
+            <CHAN>Chan3</CHAN>
+          </macros>
+          <target>window</target>
+        </action>
+      </actions>
+      <text>NonVolatile Settings</text>
+      <x>233</x>
+      <y>103</y>
+      <width>60</width>
+      <height>43</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="10.0">
+        </font>
+      </font>
+      <tooltip>$(actions)</tooltip>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>Text Update_148</name>
+      <pv_name>$(PriSys){$(PSC)}Chan3:FaultMask-SP</pv_name>
+      <x>233</x>
+      <y>75</y>
+      <width>53</width>
+      <font>
+        <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <format>4</format>
+      <precision>0</precision>
+      <show_units>false</show_units>
+      <horizontal_alignment>1</horizontal_alignment>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_97</name>
+      <text>Fault Mask SP</text>
+      <x>233</x>
+      <y>42</y>
+      <width>53</width>
+      <height>33</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="10.0">
+        </font>
+      </font>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
     </widget>
   </widget>
   <widget type="label" version="2.0.0">
@@ -2874,6 +3069,71 @@ Chan 4</text>
       <horizontal_alignment>1</horizontal_alignment>
       <vertical_alignment>1</vertical_alignment>
     </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_27</name>
+      <actions>
+        <action type="open_display">
+          <description>Open Display</description>
+          <file>Psc1_qspi.opi</file>
+          <macros>
+            <PriSys>lab</PriSys>
+            <PSC>$(PSC)</PSC>
+            <CHAN>Chan4</CHAN>
+          </macros>
+          <target>window</target>
+        </action>
+      </actions>
+      <text>NonVolatile Settings</text>
+      <x>233</x>
+      <y>104</y>
+      <width>60</width>
+      <height>43</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="10.0">
+        </font>
+      </font>
+      <tooltip>$(actions)</tooltip>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>Text Update_146</name>
+      <pv_name>$(PriSys){$(PSC)}Chan4:FaultMask-SP</pv_name>
+      <x>233</x>
+      <y>76</y>
+      <width>53</width>
+      <font>
+        <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+      <format>4</format>
+      <precision>0</precision>
+      <show_units>false</show_units>
+      <horizontal_alignment>1</horizontal_alignment>
+      <actions>
+      </actions>
+      <border_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_95</name>
+      <text>Fault Mask SP</text>
+      <x>233</x>
+      <y>43</y>
+      <width>53</width>
+      <height>33</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="10.0">
+        </font>
+      </font>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
   </widget>
   <widget type="group" version="3.0.0">
     <name>Channel 1</name>
@@ -3297,5 +3557,28 @@ Chan 2</text>
       <color red="0" green="128" blue="255">
       </color>
     </border_color>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Launch ATE</name>
+    <actions>
+      <action type="open_display">
+        <description>Open Display</description>
+        <file>/epics/iocs/PSCTest2/gui/BPCtester.bob</file>
+        <macros>
+          <P>PSCtest:</P>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <text>Launch ATE</text>
+    <x>1722</x>
+    <y>96</y>
+    <width>116</width>
+    <height>25</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
   </widget>
 </display>
